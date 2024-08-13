@@ -1,0 +1,58 @@
+- title: Scientific Talks
+  type: talks_posters
+  contents:
+    - title: Nonadiabatic dynamics in solution using linear vibronic coupling models
+      conference: 3rd DoSChem International Symposium
+      url: https://doschem.univie.ac.at/activities/doschem-symposia/3rd-doschem-symposium-2023/
+      startDate: 06-07-2023
+      endDate: 07-07-2023
+      location: Vienna, Austria
+
+    - title: Methodological Development for Non-Adiabatic Dynamics in Multi-chromophoric Systems
+      conference: Panel A DoSChem Retreat
+      url: https://doschem.univie.ac.at/activities/retreats/panel-a-retreat-2022/
+      startDate: 30-05-2022
+      endDate: 02-06-2022
+      location: Styria, Austria
+
+- title: Poster Presentations
+  type: talks_posters
+  contents:
+    - title: Elucidating Time-dependent Nonadiabatic Three-dimensional Solute--Solvent Dynamics via Surface Hopping Simulations
+      conference: 1st ViRaPID Workshop
+      startDate: 26-02-2024
+      endDate: 29-02-2024
+      location: Vienna, Austria
+
+    - title: "A Matter of Perspective: Resolving the Three-dimensional Femto-second Solvent Relaxation in Thiocarbonyls through Nonadiabatic Dynamics Simulations"
+      conference: DoSChem Panel A Retreat
+      startDate: 19-02-2024
+      endDate: 21-02-2024
+      location: Szidonia castle, Hungary
+
+    - title: Combining Linear Vibronic Coupling Models with Molecular Mechanics using Distributed Multipole-based Electrostatic Embedding
+      conference: 59th Symposium on Theoretical Chemistry
+      startDate: 04-09-2023
+      endDate: 11-09-2023
+      location: Zurich, Switzerland
+
+    - title: Nonadiabatic Dynamics in Solution using Linear Vibronic Coupling Models
+      conference: European Computational and Theoretical Conference (CompChem 2023)
+      startDate: 27-08-2023
+      endDate: 31-08-2024
+      location: Thessaloniki, Greece
+
+    - title: "When Monopoles are not enough: Taking the Restrained Electrostatic Potential Fit to the Multipolar Level"
+      conference: DoSChem Panel A Retreat
+      startDate: 20-03-2023
+      endDate: 22-03-2023
+      location: Zeillern, Austria
+
+    - title: Highly Efficient Non-adiabatic Dynamics in Solution Using Linear Vibronic Coupling Models with Electrostatic Embedding
+      conference: 58th Symposium on Theoretical Chemistry
+      startDate: 18-09-2022
+      endDate: 22-09-2022
+      location: Heidelberg, Germany
+
+
+

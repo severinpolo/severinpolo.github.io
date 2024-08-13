@@ -28,6 +28,22 @@
       "studyType": "Master of Science",
       "startDate": "2018-09",
       "endDate": "2020-07"
+    },
+    {
+      "institution": "Technical University of Munich",
+      "location": "Munich, Germany",
+      "url": "https://www.ch.nat.tum.de/ch/start/",
+      "area": "Chemistry",
+      "studyType": "Bachelor of Science",
+      "startDate": "2015-09",
+      "endDate": "2018-08"
+    },
+    {
+      "institution": "St.-Michaels-Gymnasium Metten",
+      "location": "Metten, Germany",
+      "studyType": "Abitur",
+      "startDate": "2005-09",
+      "endDate": "2015-07"
     }
   ],
   "skills": [

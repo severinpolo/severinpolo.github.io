@@ -7,87 +7,129 @@
 @article{Polonius2023JCTC,
     bibtex_show = true,
     preview = polonius2023JCTC.jpeg,
-      ids = {Polonius2023},
-        title = {{{LVC}}/{{MM}}: {{A Hybrid Linear Vibronic Coupling}}/{{Molecular Mechanics Model}} with {{Distributed
-            Multipole-Based Electrostatic Embedding}} for {{Highly Efficient Surface Hopping Dynamics}} in
-            {{Solution}}},
-          shorttitle = {{{LVC}}/{{MM}}},
-            author = {Polonius, Severin and Zhuravel, Oleksandra and Bachmair, Brigitta and Mai, Sebastian},
-              year = {2023},
-                month = oct,
-                  journal = {J. Chem. Theory Comput.},
-                    volume = {19},
-                      number = {20},
-                        pages = {7171--7186},
-                          publisher = {American Chemical Society},
-                            issn = {1549-9618},
-                              doi = {10.1021/acs.jctc.3c00805},
-                                urldate = {2023-10-24},
-                                  abstract = {We present a theoretical framework for a hybrid linear vibronic coupling
-                                      model electrostatically embedded into a molecular mechanics environment, termed
-                                          the linear vibronic coupling/molecular mechanics (LVC/MM) method, for the
-                                          surface hopping including arbitrary coupling (SHARC) molecular dynamics
-                                          package. Electrostatic embedding is realized through the computation of
-                                          interactions between environment point charges and distributed multipole
-                                          expansions (DMEs, up to quadrupoles) that represent each electronic state and
-                                          transition densities in the diabatic basis. The DME parameters are obtained
-                                          through a restrained electrostatic potential (RESP) fit, which we extended to
-                                          yield higher-order multipoles. We also implemented in SHARC a scheme for
-                                          achieving roto-translational invariance of LVC models as well as a general
-                                          quantum mechanics/molecular mechanics (QM/MM) interface, an OpenMM interface,
-                                      and restraining potentials for simulating liquid droplets. Using thioformaldehyde
-                                          in water as a test case, we demonstrate that LVC/MM can accurately reproduce
-                                          the solvation structure and energetics of rigid solutes, with errors on the
-                                          order of 1--2 kcal/mol compared to a BP86/MM reference. The implementation in
-                                          SHARC is shown to be very efficient, enabling the simulation of trajectories
-                                          on the nanosecond time scale in a matter of days.},
-                                    keywords = {abbr_iso4}
+    selected = true,
+    ids = {Polonius2023},
+    title = {{{LVC}}/{{MM}}: {{A Hybrid Linear Vibronic Coupling}}/{{Molecular Mechanics Model}} with {{Distributed
+        Multipole-Based Electrostatic Embedding}} for {{Highly Efficient Surface Hopping Dynamics}} in
+        {{Solution}}},
+    shorttitle = {{{LVC}}/{{MM}}},
+    author = {Polonius, Severin and Zhuravel, Oleksandra and Bachmair, Brigitta and Mai, Sebastian},
+    year = {2023},
+    month = oct,
+    journal = {J. Chem. Theory Comput.},
+    volume = {19},
+    number = {20},
+    pages = {7171--7186},
+    publisher = {American Chemical Society},
+    issn = {1549-9618},
+    doi = {10.1021/acs.jctc.3c00805},
+    urldate = {2023-10-24},
+    abstract = {We present a theoretical framework for a hybrid linear vibronic coupling
+        model electrostatically embedded into a molecular mechanics environment, termed
+            the linear vibronic coupling/molecular mechanics (LVC/MM) method, for the
+            surface hopping including arbitrary coupling (SHARC) molecular dynamics
+            package. Electrostatic embedding is realized through the computation of
+            interactions between environment point charges and distributed multipole
+            expansions (DMEs, up to quadrupoles) that represent each electronic state and
+            transition densities in the diabatic basis. The DME parameters are obtained
+            through a restrained electrostatic potential (RESP) fit, which we extended to
+            yield higher-order multipoles. We also implemented in SHARC a scheme for
+            achieving roto-translational invariance of LVC models as well as a general
+            quantum mechanics/molecular mechanics (QM/MM) interface, an OpenMM interface,
+        and restraining potentials for simulating liquid droplets. Using thioformaldehyde
+            in water as a test case, we demonstrate that LVC/MM can accurately reproduce
+            the solvation structure and energetics of rigid solutes, with errors on the
+            order of 1--2 kcal/mol compared to a BP86/MM reference. The implementation in
+            SHARC is shown to be very efficient, enabling the simulation of trajectories
+            on the nanosecond time scale in a matter of days.},
+    keywords = {abbr_iso4}
 }
 
 @article{Polonius2024JCTC,
     bibtex_show = true,
     preview = polonius2024JCTC.jpeg,
-      title = {Resolving {{Photoinduced Femtosecond Three-Dimensional Solute}}--{{Solvent Dynamics}} through {{Surface
-          Hopping Simulations}}},
-        author = {Polonius, Severin and Lehrner, David and Gonz{\'a}lez, Leticia and Mai, Sebastian},
-          year = {2024},
-            month = jun,
-              journal = {J. Chem. Theory Comput.},
-                volume = {20},
-                  number = {11},
-                    pages = {4738--4750},
-                      publisher = {American Chemical Society},
-                        issn = {1549-9618},
-                          doi = {10.1021/acs.jctc.4c00169},
-                            urldate = {2024-06-11},
-                              abstract = {Photoinduced dynamics in solution is governed by mutual solute--solvent
-                                  interactions, which give rise to phenomena like solvatochromism, the Stokes shift,
-                                  dual fluorescence, or charge transfer. Understanding these phenomena requires
-                                      simulating the solute's photoinduced dynamics and simultaneously resolving the
-                                      three-dimensional solvent distribution dynamics. If using trajectory surface
-                                      hopping (TSH) to this aim, thousands of trajectories are required to adequately
-                                      sample the time-dependent three-dimensional solvent distribution functions, and
-                                      thus resolve the solvent dynamics with sub-{\AA}ngstrom and femtosecond accuracy
-                                      and sufficiently low noise levels. Unfortunately, simulating thousands of
-                                      trajectories with TSH in the framework of hybrid quantum mechanical/molecular
-                                      mechanical (QM/MM) can be prohibitively expensive when employing ab initio
-                                      electronic structure methods. To tackle this challenge, we recently introduced a
-                                      computationally efficient approach that combines efficient linear vibronic
-                                      coupling models with molecular mechanics (LVC/MM) via electrostatic embedding
-                                      [Polonius et al., JCTC 2023, 19, 7171--7186]. This method provides
-                                      solvent-embedded, nonadiabatically coupled potential energy surfaces while scaling
-                                          similarly to MM force fields. Here, we employ TSH with LVC/MM to unravel the
-                                          photoinduced dynamics of two small thiocarbonyl compounds solvated in water.
-                                          We describe how to estimate the number of trajectories required to produce
-                                          nearly noise-free three-dimensional solvent distribution functions and present
-                                          an analysis based on approximately 10,000 trajectories propagated for 3 ps. In
-                                          the electronic ground state, both molecules exhibit in-plane hydrogen bonds to
-                                          the sulfur atom. Shortly after excitation, these bonds are broken and reform
-                                          perpendicular to the molecular plane on timescales that differ by an order of
-                                          magnitude due to steric effects. We also show that the solvent relaxation
-                                          dynamics is coupled to the electronic dynamics, including intersystem
-                                          crossing. These findings are relevant to advance the understanding of the
-                                          coupled solute--solvent dynamics of solvated photoexcited molecules, e.g.,
-                                  biologically relevant thio-nucleobases.}
+    selected = true,
+    title = {Resolving {{Photoinduced Femtosecond Three-Dimensional Solute}}--{{Solvent Dynamics}} through {{Surface
+        Hopping Simulations}}},
+    author = {Polonius, Severin and Lehrner, David and Gonz{\'a}lez, Leticia and Mai, Sebastian},
+    year = {2024},
+    month = jun,
+    journal = {J. Chem. Theory Comput.},
+    volume = {20},
+    number = {11},
+    pages = {4738--4750},
+    publisher = {American Chemical Society},
+    issn = {1549-9618},
+    doi = {10.1021/acs.jctc.4c00169},
+    urldate = {2024-06-11},
+    abstract = {Photoinduced dynamics in solution is governed by mutual solute--solvent
+        interactions, which give rise to phenomena like solvatochromism, the Stokes shift,
+        dual fluorescence, or charge transfer. Understanding these phenomena requires
+            simulating the solute's photoinduced dynamics and simultaneously resolving the
+            three-dimensional solvent distribution dynamics. If using trajectory surface
+            hopping (TSH) to this aim, thousands of trajectories are required to adequately
+            sample the time-dependent three-dimensional solvent distribution functions, and
+            thus resolve the solvent dynamics with sub-{\AA}ngstrom and femtosecond accuracy
+            and sufficiently low noise levels. Unfortunately, simulating thousands of
+            trajectories with TSH in the framework of hybrid quantum mechanical/molecular
+            mechanical (QM/MM) can be prohibitively expensive when employing ab initio
+            electronic structure methods. To tackle this challenge, we recently introduced a
+            computationally efficient approach that combines efficient linear vibronic
+            coupling models with molecular mechanics (LVC/MM) via electrostatic embedding
+            [Polonius et al., JCTC 2023, 19, 7171--7186]. This method provides
+            solvent-embedded, nonadiabatically coupled potential energy surfaces while scaling
+                similarly to MM force fields. Here, we employ TSH with LVC/MM to unravel the
+                photoinduced dynamics of two small thiocarbonyl compounds solvated in water.
+                We describe how to estimate the number of trajectories required to produce
+                nearly noise-free three-dimensional solvent distribution functions and present
+                an analysis based on approximately 10,000 trajectories propagated for 3 ps. In
+                the electronic ground state, both molecules exhibit in-plane hydrogen bonds to
+                the sulfur atom. Shortly after excitation, these bonds are broken and reform
+                perpendicular to the molecular plane on timescales that differ by an order of
+                magnitude due to steric effects. We also show that the solvent relaxation
+                dynamics is coupled to the electronic dynamics, including intersystem
+                crossing. These findings are relevant to advance the understanding of the
+                coupled solute--solvent dynamics of solvated photoexcited molecules, e.g.,
+        biologically relevant thio-nucleobases.}
 }
 
+@misc{SHARC3.0,
+    bibtex_show = true,
+    preview = sharc3.png,
+    selected=false,
+    title = {{{SHARC3}}.0: {{Surface}} Hopping Including Arbitrary Couplings --- {{Program}} Package for Non-Adiabatic Dynamics},
+    author = {Mai, Sebastian and Avagliano, Davide and Heindl, Moritz and Marquetand, Philipp and Menger, Maximilian F. S. J. and Oppel, Markus and Plasser, Felix and Polonius, Severin and Ruckenbauer, Matthias and Shu, Yinan and Truhlar, Donald G. and Zhang, Linyao and Zobel, Patrick and Gonz{\'a}lez, Leticia},
+    year = {2023},
+    doi = {10.5281/zenodo.7828641},
+    howpublished = {\url{https://sharc-md.org/}}
+}
+@article{Bosia2020Za,
+  bibtex_show = true,
+  preview = scine.png,
+  selected=false,
+  ids = {Bosia2020Zc},
+  title = {Qcscine/{{Utilities}}: {{Release}} 2.0.0 ({{Version}} 2.0.0)},
+  author = {Bosia, Francesco and Brunken, Christoph and Grimmel, Stephanie A. and Haag, Moritz P. and Heuer, Michael A. and Simm, Gregor N. and Sobez, Jan-Grimo and Steiner, Miguel and Unsleber, Jan P. and Vaucher, Alain C. and Weymuth, Thomas and Reiher, Markus},
+  year = {2020},
+  journal = {Zenodo},
+  pages = {http://doi.org/10.5281/zenodo.3828692},
+  doi = {10.5281/zenodo.3828692},
+  keywords = {abbr_iso4}
+}
+
+@article{Bosia2021,
+  bibtex_show = true,
+  preview = sparrow_header.jpeg,
+  selected=false,
+  title = {Qcscine/Sparrow: {{Release}} 3.0.0},
+  shorttitle = {Qcscine/Sparrow},
+  author = {Bosia, Francesco and Husch, Tamara and M{\"u}ller, Charlotte H. and Polonius, Severin and Sobez, Jan-Grimo and Steiner, Miguel and Unsleber, Jan Patrick and Vaucher, Alain C. and Weymuth, Thomas and Reiher, Markus},
+  year = {2021},
+  publisher = {ETH Zurich, Laboratory of Physical Chemistry},
+  doi = {10.3929/ethz-b-000520722},
+  urldate = {2024-08-13},
+  abstract = {Changes: Excited-state calculations with NDDO-CIS and TD-DFTB Added a binary for the calculation of IR and UV/Vis spectra of trajectories Orbital steering calculations possible with binary (using a single system, single point) and Python bindings (can handle an individual system and systems along a trajectory) Can now set symmetry number for thermodynamics calculation Added density matrix RMSD SCF convergence check Calculate atomic second derivatives Removed Sparrow-specific Python bindings in favour of the more general Core::Calculator Python bindings Added Python bindings for excited-state calculators; see Utilities for more infos on them Added patching functionality in DFTB embedded parameters, i.e. if the znorg-0-1 parameter set is chosen, then parameters are automatically sorted out between znorg-0-1 and mio-0-1 (patch parameters available: znorg-0-1, hyb-0-2) Fixed bug causing an instability in the calculation of the gradients (and Hessian matrix) in DFTBx Added conanfile.py for easier compilation and dependency-handling by Conan Made Sparrow relocatable by embedding the parameters in the compiled program; it is still possible to give parameter files externally Multiple bug fixes and stability fixes Improved testing},
+  copyright = {https://opensource.org/licenses/BSD-3-Clause},
+  langid = {english},
+  annotation = {Accepted: 2022-01-05T09:58:23Z}
+}

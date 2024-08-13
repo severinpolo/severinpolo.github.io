@@ -1,0 +1,83 @@
+---
+layout: default
+---
+<div class="post">
+<header class="post-header">
+  <h1 class="post-title">
+    {{ page.title }}
+  </h1>
+  {% if page.description %}
+    <p class="post-description">{{ page.description }}</p>
+  {% endif %}
+</header>
+
+<article>
+  <div class="cv">
+    {% for entry in site.data.talks_posters %}
+      <a class="anchor" id="{{ entry.title }}"></a>
+      <div class="card mt-3 p-3">
+        <h3 class="card-title font-weight-medium">{{ entry.title }}</h3>
+        <div>
+            <ul class="card-text font-weight-light list-group list-group-flush">
+              {% for content in entry.contents %}
+                <li class="list-group-item">
+                  <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-md-0">
+                      {% if content.title  %}
+                        <h6 class="title font-weight-bold ml-1 ml-md-2">
+                          {% if content.url %}
+                             <a href="{{ content.url }}">{{ content.title }}</a>
+                          {% else %}
+                            {{ content.title }}
+                        {% endif %}
+                        </h6>
+                      {% endif %}
+                      {% if content.conference %}
+                        <table class="table-cv ml-1 ml-md-4 conference">
+                          <tbody>
+                              <tr>
+                                <td style="vertical-align: top; text-align: center" class="conference">
+                                  <i class="fa-solid fa-calendar-days iconconference"></i>
+                                </td>
+                                <td class="conference">{{ content.conference }}</td>
+                              </tr>
+                          </tbody>
+                        </table>
+                      {% endif %}
+                      {% if content.startDate %}
+                        {% assign startDate = content.startDate | split: '-' | slice: 0, 3 | join: '.' %}
+                        {% assign endDate = content.endDate | split: '-' | slice: 0, 3 | join: '.' | default: 'Present' %}
+                        {% assign date = startDate | append: ' - ' %}
+                        {% assign date = date | append: endDate %}
+                      {% else %}
+                        {% assign date = '' %}
+                      {% endif %}
+                        <table class="table-cv ml-1 ml-md-4">
+                          <tbody>
+                            <tr>
+                              <td>
+                                  <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">
+                                      {{ date }}
+                                  </span>
+                              </td>
+                            {% if content.location %}
+                                <td>
+                                  <span style="font-size: 0.75em">
+                                    <i class="fa-solid fa-location-dot iconlocation"></i>
+                                    {{ content.location }}
+                                  </span>
+                                </td>
+                            {% endif %}
+                          </tbody>
+                        </table>
+                    </div>
+                  </div>
+                </li>
+              {% endfor %}
+            </ul>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</article>
+</div>

@@ -53,6 +53,12 @@ i.iconinstitution {
   margin-right: 0.3rem;
 }
 
+i.iconconference {
+  color: var(--global-theme-color);
+  font-size: 0.95rem;
+  margin-right: 0.3rem;
+}
+
 i.icondepartment {
   color: var(--global-theme-color);
   font-size: 0.8rem;
@@ -60,6 +66,10 @@ i.icondepartment {
 }
 
 table.institution {
+  margin-bottom: 1rem;
+}
+
+table.conference {
   margin-bottom: 1rem;
 }
 
