@@ -19,5 +19,6 @@ methododolgy for the efficient simulation of excited state dynamics in the [SHAR
 
 I am generally interested in method development, high performance computing, and data analysis. Throughout my education 
 and journey in developing software, I have come in contact with various frameworks and languages. I am always keen on
-learning something new and take on new challenges.
+learning and taking on new challenges.
+
 

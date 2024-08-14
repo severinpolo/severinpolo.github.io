@@ -4,7 +4,7 @@
       "name": "Institute of Theoretical Chemistry, University of Vienna",
       "position": "Doctoral Candidate",
       "url": "https://theochem.univie.ac.at",
-      "startDate": "2021-04-01",
+      "startDate": "04-2021",
       "endDate": "present",
       "summary": "In my PhD project I am researching new efficient methods to simulate excited state dynamics in solution",
       "highlights": ["excited state dynamics", "linear vibronic coupling", "SHARC"]
@@ -17,7 +17,7 @@
       "url": "https://www.theochem.univie.ac.at/",
       "area": "Theoretical Chemistry, Excited State Dynamics",
       "studyType": "Dr. rer. nat. in Chemistry",
-      "startDate": "2021-04",
+      "startDate": "04-2021",
       "endDate": "present"
     },
     {
@@ -26,8 +26,8 @@
       "url": "https://chab.ethz.ch/en/",
       "area": "Chemistry",
       "studyType": "Master of Science",
-      "startDate": "2018-09",
-      "endDate": "2020-07"
+      "startDate": "09-2018",
+      "endDate": "07-2020"
     },
     {
       "institution": "Technical University of Munich",
@@ -35,15 +35,15 @@
       "url": "https://www.ch.nat.tum.de/ch/start/",
       "area": "Chemistry",
       "studyType": "Bachelor of Science",
-      "startDate": "2015-09",
-      "endDate": "2018-08"
+      "startDate": "09-2015",
+      "endDate": "08-2018"
     },
     {
       "institution": "St.-Michaels-Gymnasium Metten",
       "location": "Metten, Germany",
       "studyType": "Abitur",
-      "startDate": "2005-09",
-      "endDate": "2015-07"
+      "startDate": "09-2007",
+      "endDate": "07-2015"
     }
   ],
   "skills": [
@@ -78,24 +78,24 @@
       "name": "SHARC",
       "summary": "refactoring and extensions within the scope the PhD project, Prof. Leticia González and Dr. Sebastian Mai, University of Vienna, Austria.",
       "highlights": ["SHARC", "Python", "Fortran90"],
-      "startDate": "2021-04-01",
-      "endDate": "2024-09-30",
+      "startDate": "04-2021",
+      "endDate": "present",
       "url": "https://sharc-md.org"
     },
     {
       "name": "Corporate PaaS software",
       "summary": "full-stack development intern, Exnaton AG, Zurich, Switzerland.",
-      "highlights": ["Python", "JavaScript"],
-      "startDate": "2020-09-01",
-      "endDate": "2021-03-31",
+      "highlights": ["Python", "JavaScript", "REST-APIs"],
+      "startDate": "09-2020",
+      "endDate": "03-2021",
       "url": "https://www.exnaton.com/"
     },
     {
       "name": "Scine Sparrow",
       "summary": "semester project and masters thesis: development for semiempirical electronic spectroscopy, Prof. Markus Reiher, ETH Zurich, Switzerland.",
-      "highlights": ["Python", "C++", "OpenMP"],
-      "startDate": "2019-09",
-      "endDate": "2020-07",
+      "highlights": ["NDDO-CIS", "Python", "C++", "OpenMP"],
+      "startDate": "09-2019",
+      "endDate": "07-2020",
       "url": "https://github.com/qcscine/sparrow"
     }
   ]
