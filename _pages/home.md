@@ -14,11 +14,10 @@ selected_papers: true
 social: true
 ---
 
-I am a PhD student in the group of [Leticia González](https://theochem.univie.ac.at/) and currently working on new
-methododolgy for the efficient simulation of excited state dynamics in the [SHARC package](https://sharc-md.org/).
+Theoretical chemist turned software engineer/computational scientist at [FAACTs](https://www.faccts.de/)
 
-I am generally interested in method development, high performance computing, and data analysis. Throughout my education 
-and journey in developing software, I have come in contact with various frameworks and languages. I am always keen on
-learning and taking on new challenges.
+I hold a PhD in theoretical chemistry and have studied in Munich, Zurich
+and Vienna. Throughout my education and journey in software engineering, I have contributed to open-source scientific and corporate software in various 
+international teams, and came into contact with changing frameworks and languages. 
 
-
+I love solving puzzles, learning and challenging myself while diving into new and exciting projects.

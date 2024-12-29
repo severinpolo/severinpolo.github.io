@@ -112,7 +112,7 @@ youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
-  You can reach me preferrably via email.
+  You can reach me preferrably via <a href=mailto:polonius.severin@gmail.com>email</a>.
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -631,15 +631,15 @@ jekyll_get_json:
   - data: resume
     json: assets/json/resume.json # it can also be an url
 jsonresume:
-  - basics
+  #- basics
   - work
   - education
-  - publications
+  #- publications
   - projects
-  - volunteer
-  - awards
-  - certificates
+  #- volunteer
+  #- awards
+  #- certificates
   - skills
-  - languages
-  - interests
-  - references
+  #- languages
+  #- interests
+  #- references

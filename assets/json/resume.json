@@ -1,12 +1,21 @@
 {
   "work": [
     {
+      "name": "FAACTs GmbH, Cologne, Germany",
+      "position": "Computational Scientist",
+      "url": "https://www.faccts.de",
+      "startDate": "01-2025",
+      "endDate": "present",
+      "summary": "Building fast & accurate simulation tools for chemical and pharmaceutical R&D",
+      "highlights": ["Computational Chemistry"]
+    },
+    {
       "name": "Institute of Theoretical Chemistry, University of Vienna",
-      "position": "Doctoral Candidate",
+      "position": "Universitätsassistent Praedoc",
       "url": "https://theochem.univie.ac.at",
       "startDate": "04-2021",
-      "endDate": "present",
-      "summary": "In my PhD project I am researching new efficient methods to simulate excited state dynamics in solution",
+      "endDate": "09-2024",
+      "summary": "Research on a linear vibronic coupling/molecular mechanics method and analysis of large-scale simulations of nonadiabatic solute– solvent dynamics",
       "highlights": ["excited state dynamics", "linear vibronic coupling", "SHARC"]
     }
   ],
@@ -16,9 +25,9 @@
       "location": "Vienna, Austria",
       "url": "https://www.theochem.univie.ac.at/",
       "area": "Theoretical Chemistry, Excited State Dynamics",
-      "studyType": "Dr. rer. nat. in Chemistry",
+      "studyType": "Dr. rer. nat./PhD (Chemistry)",
       "startDate": "04-2021",
-      "endDate": "present"
+      "endDate": "10-2024"
     },
     {
       "institution": "Federal Institute of Technology Zurich",
@@ -37,13 +46,6 @@
       "studyType": "Bachelor of Science",
       "startDate": "09-2015",
       "endDate": "08-2018"
-    },
-    {
-      "institution": "St.-Michaels-Gymnasium Metten",
-      "location": "Metten, Germany",
-      "studyType": "Abitur",
-      "startDate": "09-2007",
-      "endDate": "07-2015"
     }
   ],
   "skills": [
@@ -79,7 +81,7 @@
       "summary": "refactoring and extensions within the scope the PhD project, Prof. Leticia González and Dr. Sebastian Mai, University of Vienna, Austria.",
       "highlights": ["SHARC", "Python", "Fortran90"],
       "startDate": "04-2021",
-      "endDate": "present",
+      "endDate": "10-2024",
       "url": "https://sharc-md.org"
     },
     {
