@@ -16,8 +16,8 @@ social: true
 
 Theoretical chemist turned software engineer/computational scientist at [FAACTs](https://www.faccts.de/)
 
-I hold a PhD in theoretical chemistry and have studied in Munich, Zurich
-and Vienna. Throughout my education and journey in software engineering, I have contributed to open-source scientific and corporate software in various 
-international teams, and came into contact with changing frameworks and languages. 
+I hold a PhD in theoretical chemistry and have been studying in Munich, Zurich,
+and Vienna. Throughout my education and journey into software engineering, I have contributed to open-source scientific and corporate software in various 
+international teams, where I came into contact with changing frameworks and languages. 
 
-I love solving puzzles, learning and challenging myself while diving into new and exciting projects.
+I love solving puzzles, learning, and challenging myself while diving into new and exciting projects.
